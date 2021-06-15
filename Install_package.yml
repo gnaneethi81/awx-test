@@ -2,6 +2,7 @@
 - name: this playbook install pacakges
   hosts: localhost
   become: true
+  become_user: srika
   tasks:
   - name: install package
     yum: 
