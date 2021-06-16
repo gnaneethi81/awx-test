@@ -5,5 +5,5 @@
   tasks:
   - name: creating a file
     file:
-      path: /tmp/dir1
+      path: /opt/dir1
       state: directory
