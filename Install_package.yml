@@ -5,12 +5,6 @@
   tasks:
   - name: install package
     yum:  
-      name: "{{ item }}"
+      name: git
       state: installed
-      with_items: 
-       - git
-       - make
-       - gcc
-       - wget
-       - telnet
-       - gzip
+      
