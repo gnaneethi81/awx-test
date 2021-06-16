@@ -2,7 +2,6 @@
 - name: this playbook creates a file or dir
   hosts: all
   become: true
-  remote_user: ansadmin
   tasks:
   - name: creating a file
     file:
