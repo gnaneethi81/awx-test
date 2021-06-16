@@ -6,4 +6,4 @@
   - name: creating a file
     file:
       path: /opt/dir1
-      state: present
+      state: directory
