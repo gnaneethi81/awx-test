@@ -8,3 +8,4 @@
     file:
       path: /opt/dir1
       state: directory
+      become: yes
