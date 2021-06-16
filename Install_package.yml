@@ -8,9 +8,9 @@
       name: "{{ item }}"
       state: installed
       with_items: 
-      - git
-      - make
-      - gcc
-      - wget
-      - telnet
-      - gzip
+       - git
+       - make
+       - gcc
+       - wget
+       - telnet
+       - gzip
