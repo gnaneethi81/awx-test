@@ -7,3 +7,5 @@
     file:
       path: /opt/dir1
       state: directory
+      remote_src: yes
+      
