@@ -1,0 +1,8 @@
+---
+- name: setup  Jenkin server
+  hosts: all
+  tasks:
+    - name: install java
+      yum:
+          name: java
+          state: installed
